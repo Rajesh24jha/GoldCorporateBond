@@ -18,9 +18,6 @@ certifi==2020.12.5
 clang==5.0
 clyent==1.2.1
 comtypes==1.1.9
-conda==4.10.3
-conda-build==3.21.4
-conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cycler==0.10.0
 cytoolz==0.11.0
@@ -46,9 +43,6 @@ interface-meta==1.2.3
 investpy==1.0.7
 jdcal==1.4.1
 json5==0.9.5
-jupyter==1.0.0
-keras==2.6.0
-Keras-Preprocessing==1.1.2
 lifelines==0.26.0
 llvmlite==0.36.0
 locket==0.2.1
