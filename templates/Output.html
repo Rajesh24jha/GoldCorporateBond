@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+header {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.moneycontrol.com/static-mcnews/2020/01/Investment-1-770x433.png?impolicy=website&width=770&height=431");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+
+
+      
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<div class="split left">
+  <div class="center">
+    <h1>Tabular Representation of Forecasted data <br> for General Bond And Gold Bond!</h1>
+    <br>
+	{% for table in tables %}
+	{{ titles[loop.index] }}
+	{{ table|safe }}
+	{% endfor %}
+  </div>
+</div>
+
+<div class="split right">
+  <div class="center">
+  <h1>Graphical Representation of Forecasted data <br> for General Bond And Gold Bond!</h1>
+   <br>
+	{{result1}}
+	<Br><br>
+	<img src="data:image/png;base64, {{ plot_url }}">
+  </div>
+</div>
+
+</header>
+</body>
+</html>
