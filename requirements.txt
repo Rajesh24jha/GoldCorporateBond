@@ -50,8 +50,6 @@ Markdown==3.3.4
 MarkupSafe==1.1.1
 mpmath==1.2.1
 multipledispatch==0.6.0
-mypy-extensions==0.4.3
-navigator-updater==0.2.1
 nsepy==0.8
 numpy==1.19.5
 oauthlib==3.1.1
@@ -70,7 +68,6 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycosat==0.6.3
 pycurl==7.43.0.6
-pyodbc===4.0.0-unsupported
 pyreadline==2.1
 pytest==6.2.3
 pywin32==227
