@@ -110,7 +110,6 @@ scipy==1.7.1
 six==1.16.0
 soupsieve==2.2.1
 SQLAlchemy==1.4.25
-statsmodels==0.13.0
 threadpoolctl==3.0.0
 urllib3==1.26.7
 Werkzeug==2.0.
